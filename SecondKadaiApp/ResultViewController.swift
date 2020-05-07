@@ -9,11 +9,23 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+  
+    var x:Int = 0
+    var y:Int = 0
+    var w:String = "あ"
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let name = w
+        label.text="こんにちは、\(name)さん"
+        
+        
+        
     }
     
 
