@@ -24,6 +24,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EI9-5q-sNF">
                                 <rect key="frame" x="184" y="398" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="76x-gh-46l" kind="show" id="y8N-DC-TZE"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4q6-5L-vOu">
                                 <rect key="frame" x="191" y="264" width="32" height="34"/>
@@ -52,17 +55,17 @@
             <objects>
                 <viewController id="76x-gh-46l" customClass="ResultViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eH4-aa-mVK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9f-Kj-Ikx">
-                                <rect key="frame" x="186" y="144" width="42" height="21"/>
+                                <rect key="frame" x="186" y="100" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8Z-Op-r9t">
-                                <rect key="frame" x="191.5" y="265" width="31" height="30"/>
+                                <rect key="frame" x="191.5" y="221" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                             </button>
                         </subviews>
@@ -75,6 +78,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Y8-AX-5a4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WI1-Gi-gYN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB6-Iy-kn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
