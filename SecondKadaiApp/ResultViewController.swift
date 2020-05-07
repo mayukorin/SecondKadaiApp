@@ -14,7 +14,7 @@ class ResultViewController: UIViewController {
   
     var x:Int = 0
     var y:Int = 0
-    var w:String = "あ"
+    var w:String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()

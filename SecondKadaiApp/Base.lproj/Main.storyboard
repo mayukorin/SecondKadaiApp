@@ -25,7 +25,8 @@
                                 <rect key="frame" x="184" y="398" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="76x-gh-46l" kind="show" id="y8N-DC-TZE"/>
+                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVI-0k-yIh"/>
+                                    <segue destination="76x-gh-46l" kind="show" id="Was-eh-aOY"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4q6-5L-vOu">

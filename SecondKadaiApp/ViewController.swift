@@ -9,9 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var textString:String = ""
+    
+    
     
     @IBOutlet weak var textfield: UITextField!
+    @IBAction func handle(_ sender: Any) {
+        textString = textfield.text!
+        
+    }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        
         
     }
     
@@ -20,7 +28,7 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
         resultViewController.x = 1
-        resultViewController.w = "田中"
+        resultViewController.w = textString
         
         
         
