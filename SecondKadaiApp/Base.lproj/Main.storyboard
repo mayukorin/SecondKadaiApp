@@ -67,6 +67,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8Z-Op-r9t">
                                 <rect key="frame" x="191.5" y="221" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="2LA-hD-ekn" kind="unwind" unwindAction="unwind:" id="RB1-eH-Vg2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -81,6 +84,7 @@
                     <navigationItem key="navigationItem" id="WI1-Gi-gYN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bB6-Iy-kn1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="2LA-hD-ekn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="814" y="119"/>
         </scene>
